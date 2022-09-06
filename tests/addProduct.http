@@ -1,0 +1,11 @@
+POST  http://localhost:3302/add-product HTTP/1.1
+Content-Type: application/json
+
+{
+  "UID": 1,
+  "Title": "Google pixel 6A",
+  "Categories": "[ 'ELECTRONICS', 'OUTDOOR', 'TOYS' ]",
+  "Description": "Color: White. In good Condition. \nBattery Health 96%",
+  "Price": "55000",
+  "Rent": "6000"
+}
